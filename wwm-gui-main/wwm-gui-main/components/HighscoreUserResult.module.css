@@ -1,0 +1,66 @@
+.highscoreUserResult {
+	background-color: #06b4ad;
+	border: 0.15rem solid black;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 0.2rem;
+	box-shadow: inset 0 0 10px hsla(0, 0%, 0%, 0.288);
+	box-sizing: border-box;
+	margin: 1rem 2rem;
+	font-size: 1rem;
+}
+
+.highscoreUserResult :first-child {
+	justify-self: start;
+}
+
+.highscoreUserResult :last-child {
+	justify-self: end;
+}
+
+.rank {
+	margin: 0rem 1rem;
+}
+
+.score {
+	margin: 0rem 1rem;
+	font-family: var(--font-mono);
+	font-weight: bold;
+	color: rgba(0, 0, 0, 0.83);
+}
+
+.first::before {
+	display: block;
+	content: "⭐";
+	transform: translateX(-150%);
+	z-index: 3;
+	position: absolute;
+	text-shadow: 1px 0px #000, 0px 1px #000, -1px 0px #000, 0px -1px #000;
+}
+
+.highscoreUserResult.player {
+	background-color: #70f8f2;
+	color: #1c3f3d;
+}
+
+@media screen and (max-height: 900px) {
+	.highscoreUserResult {
+		font-size: 0.8rem;
+		margin: 0.5rem 1rem;
+	}
+
+	.first::before {
+		transform: translateX(-190%);
+	}
+}
+
+@media screen and (max-width: 650px), screen and (max-height: 760px) {
+	.highscoreUserResult {
+		font-size: 0.6rem;
+		margin: 0.5rem 1rem;
+	}
+
+	.first::before {
+		transform: translateX(-190%);
+	}
+}

@@ -1,0 +1,67 @@
+.popup {
+    background-color: white;
+    max-width: 40rem;
+    max-height: 50rem;
+    box-sizing: border-box;
+    overflow: scroll;
+    overflow-x: hidden;
+    border-radius: 1rem;
+    z-index: 99999;
+}
+
+.title {
+    padding: 2rem 2rem 2rem 2rem;
+    background-color: #00b1aa;
+    margin: 0;
+    border-bottom: 2px solid black;
+    box-shadow: 0 0 0.5rem 0.3rem rgba(0, 0, 0, 0.253);
+    position: sticky;
+    top: 0;
+    border-radius: 1rem 1rem 0 0;
+    font-size: 2rem;
+}
+
+.section {
+    padding: 2.5rem;
+}
+
+.section h2 {
+    color: #00ada5;
+    margin: 0 0 1rem 0;
+}
+
+.section p {
+    text-align: justify;
+    margin: 0;
+    padding-left: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+    .section p {
+        text-align: left;
+    }
+}
+
+.colored {
+    background-color: #aff5f2;
+}
+
+.closeButton {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    position: sticky;
+    bottom: 0;
+    margin: 0;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    box-shadow: 0 0 0.5rem 0.3rem rgba(0, 0, 0, 0.253);
+    border-radius: 0 0 1rem 1rem;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .closeButton:hover {
+        transform: scale(1);
+    }
+}

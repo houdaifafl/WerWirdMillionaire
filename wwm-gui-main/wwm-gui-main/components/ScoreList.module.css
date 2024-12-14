@@ -1,0 +1,40 @@
+.scoreList {
+	background-color: rgb(238, 238, 238);
+	border-radius: 0.3rem;
+	border: 0.1rem solid black;
+	max-width: 30rem;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0.5rem 0rem;
+}
+
+.scoreText {
+	color: white;
+	text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000,
+		1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000;
+}
+
+.scoreItem {
+	padding: 0.05rem;
+	text-align: center;
+	font-size: 0.65rem;
+}
+
+.disabled.currentScore {
+	color: #888888;
+	background-color: #b8b8b8;
+}
+
+.wrong.currentScore {
+	color: #ff9494;
+	background-color: #ec7171;
+}
+
+.currentScore {
+	color: #06b4ad;
+	background-color: #71ece3;
+}
+
+.scoreIndex {
+	margin-right: 0.5rem;
+}

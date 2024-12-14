@@ -1,0 +1,50 @@
+.heading {
+    color: black;
+    text-shadow: 2px 0 #06b4ad, -2px 0 #06b4ad, 0 2px #06b4ad, 0 -2px #06b4ad,
+        1px 1px #06b4ad, -1px -1px #06b4ad, 1px -1px #06b4ad, -1px 1px #06b4ad,
+        2px 2px 3px #000;
+    font-weight: 100;
+    font-size: 2rem;
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    margin: 0rem;
+}
+
+@media screen and (max-height: 900px), screen and (max-width: 800px) {
+    .heading {
+        font-size: 1.5rem;
+        padding: 0.75rem;
+    }
+}
+
+@media screen and (max-height: 780px), screen and (max-width: 700px) {
+    .heading {
+        font-size: 1.3rem;
+        padding: 0.5rem;
+    }
+}
+
+@media screen and (max-height: 780px), screen and (max-width: 700px) {
+    .heading {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-height: 675px), screen and (max-width: 640px) {
+    .heading {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-height: 600px), screen and (max-width: 444px) {
+    .heading {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-height: 600px), screen and (max-width: 410px) {
+    .heading {
+        font-size: 1.1rem;
+    }
+}

@@ -1,0 +1,109 @@
+.main {
+    z-index: 1100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+
+.relative {
+    z-index: 1100;
+    position: relative;
+}
+
+.user-icon {
+    width: 45px;
+    height: 40px;
+}
+.popup1 {
+    background-color: white;
+}
+
+.text-button {
+    padding: 0 2rem;
+    height: 2.8rem;
+}
+
+.icon-container {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.text-button {
+    display: flex;
+    background-color: #00b1aa;
+    border-radius: 12px;
+    height: 2.85rem;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 0.2rem 0.2rem;
+}
+
+.logo-text {
+    -webkit-text-stroke: 1px #64ccc5;
+    font-size: 32px;
+    width: 750px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.leftArea {
+    display: flex;
+    gap: 1rem;
+}
+
+.rightArea {
+    display: flex;
+    gap: 1rem;
+}
+
+.accountInfo {
+    width: fit-content;
+}
+
+.username {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 10rem;
+}
+
+@media screen and (max-width: 500px) {
+    .leftArea,
+    .rightArea {
+        gap: 0.3rem;
+    }
+
+    .text-button {
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .username {
+        max-width: 7rem;
+    }
+}
+
+@media screen and (max-width: 394px) {
+    .username {
+        max-width: 5rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .username {
+        max-width: 3rem;
+    }
+}

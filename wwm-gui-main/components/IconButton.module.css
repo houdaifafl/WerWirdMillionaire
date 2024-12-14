@@ -1,0 +1,16 @@
+.iconButton {
+	background-color: #06b4ad;
+	padding: 0.8rem;
+	font-size: 1.1rem;
+	border-radius: 5rem;
+	border: 0.15rem solid rgb(14, 14, 14);
+	cursor: pointer;
+	box-shadow: rgba(0, 0, 0, 0.3) 0 0.2rem 0.2rem;
+	width: 4rem;
+	height: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	justify-items: center;
+}

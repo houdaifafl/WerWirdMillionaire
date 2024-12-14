@@ -1,0 +1,30 @@
+{
+  "name": "wwm-gui",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ducanh2912/next-pwa": "^9.7.2",
+    "@uidotdev/usehooks": "^2.4.1",
+    "axios": "^1.6.2",
+    "next": "14.0.0",
+    "next-client-cookies": "^1.1.0",
+    "react": "^18",
+    "react-confetti": "^6.1.0",
+    "react-dom": "^18",
+    "react-multi-lang": "^2.2.0",
+    "react-router-dom": "^6.21.0",
+    "react-spinners": "^0.13.8",
+    "react-use-audio-player": "^2.2.0",
+    "recharts": "^2.10.3",
+    "validator": "^13.11.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.89.0"
+  }
+}

@@ -1,0 +1,139 @@
+{
+	"gamemode": {
+		"game": "WHO WANTS TO BE A MILLIONAIRE?",
+		"Mode1": "Game of the day",
+		"Mode2": "Quick game",
+		"Mode3": "Latest show",
+		"Mode4": "Training mode"
+	},
+	"trainResult": "Training result",
+	"score": "Score",
+	"menu": "Menu",
+	"jokerTip": {
+		"0": "I'm sure it's answer {letter}!",
+		"1": "I think it's answer {letter}!",
+		"2": "I would guess answer {letter}!",
+		"3": "I have it in my urine. It's answer {letter}!",
+		"4": "I'm 100% sure it's answer {letter}!",
+		"5": "My gut feeling tells me: answer {letter}!"
+	},
+	"subtext": {
+		"nothing": "Nothing!",
+		"low": "Ough! Better luck next time!",
+		"medium": "Not bad!",
+		"high": "Very good!",
+		"very_high": "Excellent!",
+		"million": "You are a virtual millionaire!",
+		"training": "On the way to the millionaire!"
+	},
+	"instructions": {
+		"title": "Instructions: ",
+		"quickgame": "Quick game: ",
+		"quickgameexp": "You have to answer 15 questions of random topics with increasing difficulty. If you give a wrong answer, you can end the game and be happy with your result or continue playing without further winnings.",
+		"lastprogramm": "Latest show: ",
+		"lastprogrammexp": "Here you can play the questions of the latest show. If you give a wrong answer, you can end the game and be happy with your result or continue playing without further winnings. Are you better than the candidate on TV?",
+		"gameoftheday": "Game of the day: ",
+		"gameofthedayexp": "Every day 15 questions are selected that can only be played once for all players. If you give a wrong answer, you can end the game and be happy with your result or continue playing without further winnings. Compare yourself with friends and family!",
+		"trainingmode": "Training mode: ",
+		"trainingmodeexp": "Here you can train selected knowledge categories such as geography, music or film. You must then answer 15 random questions in random order from the subject areas you selected. You cannot score here.",
+		"joker": "Joker: ",
+		"jokerexp": "In each game you have four jokers available, which you can use only a single time each. The 50:50 joker removes two wrong answers, the audience joker shows an audience voting, the phone joker gives a tip from a friend and the person-from-audience joker shows you the opinion of a person from the audience.",
+		"end": "End round: ",
+		"endexp": "You can end your game round at any time and be happy with your current virtual amount of money. Simply click on the button at the top left."
+	},
+	"popup": {
+		"delete": "Do you really want to delete the question?",
+		"cancel": "Do you really want to cancel?",
+		"quit": "Do you really wish to leave the game?",
+		"oh_no": "OH NO !!",
+		"play_without_winning": "Unfortunately, the answer you have given is incorrect, so the final result is fixed. However, you can still play the current set of questions to the end."
+	},
+	"button": {
+		"ja": "Yes",
+		"nein": "No",
+		"zurück": "Back",
+		"weiter": "Continue",
+		"weiterspielen": "Continue",
+		"beenden": "End",
+		"retry": "Retry"
+	},
+	"categories": {
+		"themen": "Topics",
+		"essen": "Food",
+		"geografie": "Geography",
+		"geschichte": "History",
+		"literatur": "Literature",
+		"musik": "Music",
+		"wortspiele": "Pun",
+		"history": "History",
+		"food": "Food",
+		"film": "Film",
+		"geography": "Geography",
+		"literature": "Literature",
+		"music": "Music",
+		"pun": "Pun"
+	},
+	"admin_page": {
+		"add_ques": "Add question",
+		"edit_ques": "Edit question",
+		"question": "Question",
+		"answer": "Answer",
+		"correct_ans": "Correct answer",
+		"de": "German",
+		"en": "English",
+		"category": "Category",
+		"difficulty": "Difficulty"
+	},
+	"account": {
+		"email_username": "Email or username",
+		"email": "Email address",
+		"password": "Password",
+		"forgot_password": "Forgot password?",
+		"no_account": "Don't have an account?",
+		"new_password": "New password",
+		"repeat_password": "Repeat password",
+		"vorname": "First name",
+		"name": "Name",
+		"birthday": "Birthday",
+		"with_account": "Already have an account?"
+	},
+	"security_ques": {
+		"fav_color": "What is your favourite color?",
+		"birthplace": "Where were you born?",
+		"mother_name": "What is the name of your mother?"
+	},
+	"bestlist": {
+		"title": "Highscores",
+		"woche": "Week",
+		"heute": "Today",
+		"monat": "Month",
+		"homepage": "Home",
+		"du": "You"
+	},
+	"error_id": {
+		"network_error": "Network error! Please verify your internet connection!",
+		"auth_error": "The authentification token is invalid or outdated.",
+		"incorrect_answer_error": "At least one of the security questions was answered incorrectly.",
+		"specify_error": "At least one specification is missing.",
+		"fatal_error": "An unhandled error. This should never happen. Please notify the backend team!",
+		"credentials_error": "The credentials for the login are wrong!",
+		"user_identity_error": "No username/email has been specified!",
+		"password_error": "No password has been specified!",
+		"password_notmatch": "Passwords do NOT match!",
+		"email_error": "Entered email is not an valid email!",
+		"favourite_color_error": "No favorite color has been specified!",
+		"mother_name_error": "No mother`s name has been specified!",
+		"place_of_birth_error": "No place of birth has been specified!",
+		"surname_error": "No surname has been specified!",
+		"lastname_error": "No lastname has been specified!",
+		"date_error": "Entered birthday is not a valid date!",
+		"birthday_error": "The user must be at least 15 years old to play this game!",
+		"duplicate_email_error": "The entered email is already used!",
+		"already_played_game_of_the_day_error": "You have already played the game of the day today!",
+		"password_reset_needs_user_identity_error": "Please specify a username or email!",
+		"reset_password_error": "Failed to reset password!",
+		"admin_error": "The user does not have administrative rights.",
+		"question_format_error": "At least one attribute is missing or empty.",
+		"invalid_id_error": "The question to be updated does not exist."
+	}
+}

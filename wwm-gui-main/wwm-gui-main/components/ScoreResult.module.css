@@ -1,0 +1,33 @@
+.scoreResult {
+	border-bottom: 0.2rem solid black;
+	border-top: 0.2rem solid black;
+	background-color: #06b4ad;
+	box-shadow: rgba(0, 0, 0, 0.3) 0 0.2rem 0.2rem;
+	text-align: center;
+}
+
+.heading {
+	font-size: 1.2rem;
+	padding: 0.5rem;
+}
+
+.main {
+	font-size: 2rem;
+	background-color: #06827d;
+	color: #19fff7;
+	padding: 2rem;
+}
+
+.footer {
+	font-size: 1.2rem;
+	padding: 0.5rem;
+}
+
+@media screen and (min-width: 600px) {
+	.scoreResult {
+		width: 40rem;
+		margin: auto;
+		border: 0.2rem solid black;
+		border-radius: 0.4rem;
+	}
+}

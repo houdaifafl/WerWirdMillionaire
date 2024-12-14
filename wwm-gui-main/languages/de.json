@@ -1,0 +1,139 @@
+{
+	"gamemode": {
+		"game": "WER WIRD MILLIONÄR?",
+		"Mode1": "Spiel des Tages",
+		"Mode2": "Schnelles Spiel",
+		"Mode3": "Letzte Sendung",
+		"Mode4": "Trainingsmodus"
+	},
+	"jokerTip": {
+		"0": "Ich bin mir sicher es ist Antwort {letter}!",
+		"1": "Es ist bestimmt Antwort {letter}!",
+		"2": "Ich würde auf Antwort {letter} tippen!",
+		"3": "Ich habe es im Urin. Es ist Antwort {letter}!",
+		"4": "Ich bin mir zu 100% sicher, dass es Antwort {letter} ist!",
+		"5": "Mein Bauchgefühl sagt mir: Antwort {letter}!"
+	},
+	"trainResult": "Trainingsergebnis",
+	"score": "Gewinnsumme",
+	"menu": "Hauptmenü",
+	"subtext": {
+		"nothing": "Du hast leider nichts gewonnen.",
+		"low": "Ough! Viel Glück beim nächsten Mal!",
+		"medium": "Nicht schlecht!",
+		"high": "Gut gemacht!",
+		"very_high": "Sehr gut!",
+		"million": "Wahnsinn! Du bist virtueller Millionär!",
+		"training": "Auf dem Weg zum Millionär!"
+	},
+	"instructions": {
+		"title": "Anleitung: ",
+		"quickgame": "Schnelles Spiel: ",
+		"quickgameexp": "Du musst 15 Fragen zufälliger Themen mit steigendem Schwierigkeitsgrad beantworten. Bei einer falschen Antwort kannst du das Spiel beenden und deinen Gewinn sichern oder ohne weiteren Gewinn weiterspielen.",
+		"lastprogramm": "Letzte Sendung: ",
+		"lastprogrammexp": "Hier kannst du die Fragen der letzten Sendung nachspielen.  Bei einer falschen Antwort kannst du das Spiel beenden und deinen Gewinn sichern oder ohne weiteren Gewinn weiterspielen. Bist du besser als der Kandidat im Fernsehen?",
+		"gameoftheday": "Spiel des Tages: ",
+		"gameofthedayexp": "Jeden Tag werden 15 Fragen ausgewählt, die für alle Spieler nur einmal spielbar sind. Bei einer falschen Antwort kannst du das Spiel beenden und deinen Gewinn sichern oder ohne weiteren Gewinn weiterspielen. Vergleiche dich mit Freunden und Familie!",
+		"trainingmode": "Trainingmodus: ",
+		"trainingmodeexp": "Hier kannst du gezielt ausgewählte Wissenkategorien wie Geografie, Musik oder Film trainieren. Du musst anschließend 15 zufällige Fragen in zufälliger Reihenfolge aus den von dir gewünschten Themengebieten beantworten. Du kannst hier keinen Gewinn erzielen.",
+		"joker": "Joker: ",
+		"jokerexp": "In jedem Spiel stehen dir vier Joker zu Verfügung, die du jeweils einmal einlösen darfst. Der 50:50 Joker entfernt zwei falsche Antworten, der Publikumsjoker zeigt ein Publikumsvoting, der Telefonjoker gibt einen Tipp von einem Freund und der Person-Aus-Publikum-Joker zeigt dir die Meinung einer Person aus dem Publikum.",
+		"end": "Runde beenden: ",
+		"endexp": " Sie können jederzeit Ihre Spielrunde beenden und Ihren zuletzt erreichten virtuellen Geldbetrag sichern. Klicken Sie dafür einfach auf den Button oben links."
+	},
+	"popup": {
+		"delete": "Willst du die Frage wirklich loeschen?",
+		"cancel": "Willst du wirklich abbrechen?",
+		"quit": "Willst du das Spiel wirklich verlassen?",
+		"oh_no": "OH NEIN !!",
+		"play_without_winning": "Sie haben leider eine falsche Antwort gegeben,damit steht Ihr Endergebnis fest. Sie können aber den aktuellen Fragensatz bis zum Ende spielen."
+	},
+	"button": {
+		"ja": "Ja",
+		"nein": "Nein",
+		"zurück": "Zurück",
+		"weiter": "Weiter",
+		"weiterspielen": "Weiterspielen",
+		"beenden": "Beenden",
+		"retry": "Erneut versuchen"
+	},
+	"categories": {
+		"themen": "Themen",
+		"essen": "Essen",
+		"geografie": "Geografie",
+		"geschichte": "Geschichte",
+		"literatur": "Literatur",
+		"musik": "Musik",
+		"wortspiele": "Wortspiele",
+		"history": "Geschichte",
+		"food": "Essen",
+		"film": "Film",
+		"geography": "Geografie",
+		"literature": "Literatur",
+		"music": "Musik",
+		"pun": "Wortspiele"
+	},
+	"admin_page": {
+		"add_ques": "Fragen hinzufügen",
+		"edit_ques": "Fragen bearbeiten",
+		"question": "Fragen",
+		"answer": "Antwort",
+		"correct_ans": "Richtige Antwort",
+		"de": "Deutsch",
+		"en": "Englisch",
+		"category": "Kategory",
+		"difficulty": "Schwierigkeit"
+	},
+	"account": {
+		"email_username": "E-Mail oder Nutzername",
+		"email": "E-Mail Adresse",
+		"password": "Passwort",
+		"forgot_password": "Passwort vergessen?",
+		"no_account": "Noch kein Konto?",
+		"new_password": "Neues Passwort",
+		"repeat_password": "Passwort wiederholen",
+		"vorname": "Vorname",
+		"name": "Name",
+		"birthday": "Geburtstag",
+		"with_account": "Schon ein Konto?"
+	},
+	"security_ques": {
+		"fav_color": "Was ist deine Lieblingsfarbe?",
+		"birthplace": "Wo wurdest du geboren?",
+		"mother_name": "Wie lautet der Vorname deiner Mutter?"
+	},
+	"bestlist": {
+		"title": "Bestenliste",
+		"woche": "Woche",
+		"heute": "Heute",
+		"monat": "Monat",
+		"homepage": "Hauptmenü",
+		"du": "Du"
+	},
+	"error_id": {
+		"network_error": "Netzwerkfehler! Bitte überprüfen Sie Ihre Internetverbindung!",
+		"auth_error": "Das Authentifizierungs-Token ist ungültig oder veraltet.",
+		"incorrect_answer_error": "Mindestens eine der Sicherheitsfragen wurde falsch beantwortet.",
+		"specify_error": "Mindestens eine Angabe fehlt.",
+		"fatal_error": "Ein unbehandelter Fehler. Dies sollte niemals passieren. Bitte benachrichtigen Sie das Backend-Team!",
+		"credentials_error": "Die Anmeldedaten für die Anmeldung sind falsch!",
+		"user_identity_error": "Es wurde kein Nutzername/Email angegeben!",
+		"password_error": "Es wurde kein Passwort angegeben!",
+		"password_notmatch": "Passwörter stimmen NICHT überein!",
+		"email_error": "Die eingegebene E-Mail ist keine gültige E-Mail!",
+		"favourite_color_error": "Es wurde keine Lieblingsfarbe angegeben!",
+		"mother_name_error": "Der Name der Mutter wurde nicht angegeben!",
+		"place_of_birth_error": "Es wurde kein Geburtsort angegeben!",
+		"surname_error": "Es wurde kein Vorname angegeben!",
+		"lastname_error": "Es wurde kein Nachname angegeben!",
+		"date_error": "Der eingegebene Geburtstag ist kein gültiges Datum!",
+		"birthday_error": "Der Benutzer muss mindestens 15 Jahre alt sein, um dieses Spiel zu spielen!",
+		"duplicate_email_error": "Die eingegebene E-Mail ist bereits verwendet!",
+		"already_played_game_of_the_day_error": "Sie haben das Spiel des Tages bereits gespielt!",
+		"password_reset_needs_user_identity_error": "Bitte Nutzername oder E-Mail angeben!",
+		"reset_password_error": "Das Passwort konnte nicht zurückgesetzt werden!",
+		"admin_error": "Der Benutzer hat keine administrativen Rechte.",
+		"question_format_error": "Mindestens ein Attribut fehlt oder ist leer.",
+		"invalid_id_error": "Die zu aktualisierende Frage ist nicht vorhanden."
+	}
+}

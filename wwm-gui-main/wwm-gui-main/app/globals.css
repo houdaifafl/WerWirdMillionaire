@@ -1,0 +1,139 @@
+/* CSS code for all pages */
+* {
+    font-family: var(--font-audio-wide);
+    font-weight: 400;
+    color: black;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0.25rem;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    position: relative;
+}
+
+html.secret {
+    animation-name: hue-rotate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* inset box shadow */
+    background-color: rgb(255, 220, 220);
+    filter: hue-rotate(0deg);
+}
+
+html.secret label,
+html.secret h1,
+html.secret h2,
+html.secret h3,
+html.secret h4 {
+    background-image: linear-gradient(
+        to right,
+        red,
+        orange,
+        yellow,
+        green,
+        blue,
+        indigo,
+        violet,
+        red
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow-animation 35s linear infinite;
+
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.801);
+}
+
+@keyframes rainbow-animation {
+    to {
+        background-position: 200vh;
+    }
+}
+
+@keyframes hue-rotate {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+    color: black !important;
+}
+
+button {
+    background-color: #00b1aa;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.05s ease-in-out, box-shadow 0.05s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 0.2rem 0.2rem, #00b1ab00 0 0rem 4rem;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    button:hover {
+        transform: scale(1.05);
+        box-shadow: rgba(0, 0, 0, 0.3) 0 0.2rem 0.2rem, #00b1aa 0 0rem 4rem;
+    }
+}
+
+button:active {
+    background-color: #bdcc64;
+}
+
+.icon-container {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.text-button {
+    display: flex;
+    background-color: #00b1aa;
+    border-radius: 12px;
+    height: 50px;
+    width: min-content;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-text {
+    -webkit-text-stroke: 1px #64ccc5;
+    font-size: 32px;
+    width: 750px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.coloreven:nth-child(even) {
+    background-color: #e5fffe;
+}
+
+#margtop {
+    margin-top: min(200px, 5%);
+}
+
+#margbot {
+    margin-bottom: min(200px, 5%);
+}
+
+.full-width-container {
+    width: 100%;
+}

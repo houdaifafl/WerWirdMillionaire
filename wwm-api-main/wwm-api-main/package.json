@@ -1,0 +1,45 @@
+{
+	"name": "wwm-api",
+	"version": "0.1.0",
+	"description": "The backend of our application. It's a RESTful API powered by expressjs.",
+	"main": "src/index.js",
+	"scripts": {
+		"start": "node src/index.js",
+		"dev": "nodemon src/index.js",
+		"drop-database": "node scripts/dropDatabase.js",
+		"test": "mocha"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/SWE-Team404/wwm-api.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/SWE-Team404/wwm-api/issues"
+	},
+	"homepage": "https://github.com/SWE-Team404/wwm-api#readme",
+	"dependencies": {
+		"axios": "^1.6.2",
+		"bcrypt": "^5.1.1",
+		"chai": "^4.3.10",
+		"cors": "^2.8.5",
+		"current-week-number": "^1.0.7",
+		"dotenv": "^16.3.1",
+		"express": "^4.18.2",
+		"expressjs": "^1.0.1",
+		"mariadb": "^3.2.2",
+		"mocha": "^10.2.0",
+		"nocache": "^4.0.0",
+		"nodemailer": "^6.9.7",
+		"npmlog": "^7.0.1",
+		"unique-username-generator": "^1.2.0",
+		"uuid": "^9.0.1",
+		"validator": "^13.11.0"
+	},
+	"devDependencies": {
+		"jest": "^29.7.0",
+		"nodemon": "^3.0.2",
+		"supertest": "^6.3.3"
+	}
+}

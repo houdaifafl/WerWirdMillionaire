@@ -1,0 +1,66 @@
+.popup {
+	background-color: white;
+	border-radius: 2rem;
+	text-align: center;
+	padding: 2rem;
+	max-width: 100%;
+}
+
+.img {
+	width: 10rem;
+	margin-bottom: 2rem;
+}
+
+.footer {
+	margin-top: 2rem;
+}
+
+.button {
+	padding: 1rem;
+	margin: 0.5rem;
+	font-size: 1.3rem;
+	border-radius: 0.5rem;
+}
+
+.content {
+	max-width: 30rem;
+}
+
+@media screen and (max-width: 768px) {
+	.popup {
+		padding: 2rem;
+	}
+	.img {
+		width: 8rem;
+		margin-bottom: 1rem;
+	}
+	.button {
+		padding: 0.5rem;
+		margin: 0.25rem;
+		font-size: 1rem;
+		border-radius: 0.25rem;
+	}
+	.content {
+		max-width: 25rem;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.popup {
+		padding: 1rem;
+	}
+	.img {
+		width: 6rem;
+		margin-bottom: 0.5rem;
+	}
+	.button {
+		padding: 0.5rem;
+		margin: 0.25rem;
+		font-size: 1rem;
+		border-radius: 0.25rem;
+	}
+	.content {
+		max-width: 20rem;
+		font-size: 0.8rem;
+	}
+}

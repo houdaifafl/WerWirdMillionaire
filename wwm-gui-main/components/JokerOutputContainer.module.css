@@ -1,0 +1,45 @@
+.containerWrapper {
+    display: flex;
+    width: 100%;
+    height: 10rem;
+    max-height: 10rem;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    box-sizing: border-box;
+}
+
+.jokerOutputContainer {
+    width: 100%;
+    height: 100%;
+    background: white;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    border: 0.15rem solid black;
+    box-sizing: border-box;
+    display: grid;
+    align-content: center;
+}
+
+.tip {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading img {
+    width: 8rem;
+    margin: 0;
+}

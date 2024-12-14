@@ -1,0 +1,68 @@
+.input label {
+	display: block;
+	padding-bottom: 0.4rem;
+	font-size: 1rem;
+}
+
+.greyLabel {
+	color: rgb(75, 75, 75);
+}
+
+.input input {
+	background-color: #dfffff;
+	padding: 1rem 1rem;
+	border: 1px solid black;
+	border-radius: 0.3rem;
+	font-size: 1rem;
+	box-shadow: rgba(0, 0, 0, 0.3) 0 0.2rem 0.2rem;
+	box-sizing: border-box;
+	width: 24rem;
+	max-width: 100%;
+}
+
+.input {
+	box-sizing: border-box;
+	width: 24rem;
+}
+
+.smallInput label {
+	display: block;
+	padding-bottom: 0.4rem;
+	font-size: 1rem;
+}
+
+.smallInput input {
+	background-color: #dfffff;
+	padding: 0.7rem 1rem;
+	border: 1px solid black;
+	border-radius: 0.3rem;
+	font-size: 1rem;
+	box-shadow: rgba(0, 0, 0, 0.3) 0 0.2rem 0.2rem;
+	box-sizing: border-box;
+	width: 20rem;
+}
+
+.smallInput {
+	box-sizing: border-box;
+}
+
+@media screen and (max-width: 440px) {
+	.smallInput,
+	.input {
+		width: 100%;
+	}
+	.smallInput input,
+	.input input {
+		width: 100%;
+	}
+}
+
+@media screen and (max-height: 800px), screen and (max-width: 440px) {
+	.input label,
+	.smallInput label {
+		padding-bottom: 0.2rem;
+	}
+	.smallInput input {
+		padding: 0.4rem 1rem;
+	}
+}

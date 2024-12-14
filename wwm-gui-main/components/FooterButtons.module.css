@@ -1,0 +1,41 @@
+/* globals.css */
+.btn-group {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+	box-shadow: rgba(0, 0, 0, 0.3) 0 -0.05rem 0.2rem;
+}
+
+.btn-group > div {
+	width: 100%;
+}
+
+.weiter-button,
+.zurueck-button {
+	color: black;
+	border: 2px black solid;
+	cursor: pointer;
+	width: 100%;
+	font-size: 20px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+	.weiter-button:hover,
+	.zurueck-button:hover {
+		transform: scale(1);
+	}
+}
+
+.weiter-button {
+	border-left: 1px black solid;
+	padding: 10px 15px;
+}
+
+.zurueck-button {
+	border-right: 1px black solid;
+	padding: 10px 15px;
+}
